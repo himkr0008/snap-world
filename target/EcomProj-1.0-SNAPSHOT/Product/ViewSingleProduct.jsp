@@ -59,8 +59,18 @@
                     <br>
                     <br>
                     <br>
-                      <div class="jumbotron" style="color:white;background-color: black; margin-top: 60px; margin-bottom: 0;">
-            <p>Welcome to Ecom</p>
+
+        <!-- Footer   --->
+
+        <div  style="color:whitesmoke;background-color: black; margin-top: 60px; margin-bottom: 0;">
+           
+                <H2>
+            <CENTER>         
+            <p>WELCOME TO SNAP WORLD</p>
+ © 2013-2019  SNAP WORLD  Pvt. Ltd. Some rights reserved
+            </CENTER>
+                </H2>
+        </div>
         </div>
     </body>
 </html>

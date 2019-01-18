@@ -21,8 +21,10 @@
 
 
 
-<nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
-    <a class="navbar-brand" href="http://localhost:${pageContext.request.localPort}${pageContext.request.contextPath}/index.jsp">ApniDukan</a>
+<nav class="navbar navbar-expand-lg navbar-light bg-secondary sticky-top">
+
+
+    <a class="navbar-brand" href="http://localhost:${pageContext.request.localPort}${pageContext.request.contextPath}/index.jsp">SNAP WORLD</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
@@ -33,17 +35,13 @@
                 <a class="nav-link" href="/EcomProj/index.jsp">Home<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="/EcomProj/AboutUs.jsp">About Us</a>
+                <a class="nav-link" href="/EcomProj/AboutUs.jsp">About us</a>
             </li>
         </ul>
 
 
 
 
-        <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-success my-2 my-sm-0" type="submit">Search</button>
-        </form>
 
         <% session.setAttribute("userObject", request.getSession().getAttribute("userObject"));
         %>
